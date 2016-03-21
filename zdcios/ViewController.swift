@@ -14,24 +14,40 @@ class ViewController: UIViewController {
     @IBOutlet weak var z: UITextField!
     
     @IBOutlet weak var mark: UITextField!
-  
-  
+    var loop=0;
+    
     @IBAction func subButton(sender: AnyObject) {
         mark.text="-"
+        loop=2
     }
     @IBAction func divButton(sender: AnyObject) {
         mark.text="/"
+        loop=4
     }
    
  
     @IBAction func mulButton(sender: AnyObject) {
         mark.text="*"
+        loop=3
     }
     
     @IBAction func addButton(sender: AnyObject) {
         mark.text="+"
+        loop=1
     }
     
+    @IBAction func one(sender: AnyObject) {
+       
+       
+      if (mark == "" ){
+            
+            y.text!+="1"
+        }
+       else
+       {
+            x.text!+="1"
+        }
+    }
     
     @IBAction func add(sender: UIButton) {
         var a:Double!=0
@@ -44,8 +60,23 @@ class ViewController: UIViewController {
             b = (y.text! as NSString).doubleValue
         }
     
+        if( loop==1){
             c=a+b
+        }
+        else if(loop==2)
+        {
+            c=a-b
+        }
+        else if(loop==3)
+        {
+            c=a*b
+        }
+        else if(loop==4)
+        {
+            c=a/b
+        }
         z.text="\(c)"
+        
         
     
     
