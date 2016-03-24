@@ -16,6 +16,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var mark: UITextField!
     var loop=0;
     var tmp=0;
+    var booldoty=false;
+    var booldotx=false;
     
     @IBAction func subButton(sender: AnyObject) {
         mark.text="-"
@@ -45,100 +47,318 @@ class ViewController: UIViewController {
        
        
       if (tmp==1){
-            
-            y.text!+="1"
-        }
-       else
-       {
-            x.text!+="1"
-        }
-    }
-    
-    @IBAction func two(sender: AnyObject) {
-        if (tmp==1){
-            
-            y.text!+="2"
+        
+            if(y.text=="0")
+            {
+                y.text!+=""
+            }
+            else
+            {
+                y.text!+="1"
+            }
+        
         }
         else
         {
-            x.text!+="2"
+            if(x.text=="0")
+            {
+                x.text!+=""
+            }
+            else
+            {
+                x.text!+="1"
+            }
+
+        }
+
+       }
+    @IBAction func two(sender: AnyObject) {
+        if (tmp==1){
+            if(y.text=="0")
+            {
+                y.text!+=""
+            }
+            else
+            {
+                y.text!+="2"
+            }
+            
+        }
+        else
+        {
+            if(x.text=="0")
+            {
+                x.text!+=""
+            }
+            else
+            {
+                x.text!+="2"
+            }
+            
         }
     }
     
     @IBAction func three(sender: AnyObject) {
         if (tmp==1){
+            if(y.text=="0")
+            {
+                y.text!+=""
+            }
+            else
+            {
+                y.text!+="3"
+            }
             
-            y.text!+="3"
         }
         else
         {
-            x.text!+="3"
+            if(x.text=="0")
+            {
+                x.text!+=""
+            }
+            else
+            {
+                x.text!+="3"
+            }
+            
         }
+
     }
     
     @IBAction func four(sender: AnyObject) {
         if (tmp==1){
+            if(y.text=="0")
+            {
+                y.text!+=""
+            }
+            else
+            {
+                y.text!+="4"
+            }
             
-            y.text!+="4"
         }
         else
         {
-            x.text!+="4"
+            if(x.text=="0")
+            {
+                x.text!+=""
+            }
+            else
+            {
+                x.text!+="4"
+            }
+            
         }
     }
     @IBAction func five(sender: AnyObject) {
         if (tmp==1){
+            if(y.text=="0")
+            {
+                y.text!+=""
+            }
+            else
+            {
+                y.text!+="5"
+            }
             
-            y.text!+="5"
         }
         else
         {
-            x.text!+="5"
+            if(x.text=="0")
+            {
+                x.text!+=""
+            }
+            else
+            {
+                x.text!+="5"
+            }
+            
         }
     }
     
     @IBAction func six(sender: AnyObject) {
         if (tmp==1){
+            if(y.text=="0")
+            {
+                y.text!+=""
+            }
+            else
+            {
+                y.text!+="6"
+            }
             
-            y.text!+="6"
         }
         else
         {
-            x.text!+="6"
+            if(x.text=="0")
+            {
+                x.text!+=""
+            }
+            else
+            {
+                x.text!+="6"
+            }
+            
         }
     }
     
     @IBAction func seven(sender: AnyObject) {
         if (tmp==1){
+            if(y.text=="0")
+            {
+                y.text!+=""
+            }
+            else
+            {
+                y.text!+="7"
+            }
             
-            y.text!+="7"
         }
         else
         {
-            x.text!+="7"
+            if(x.text=="0")
+            {
+                x.text!+=""
+            }
+            else
+            {
+                x.text!+="7"
+            }
+            
         }
     }
     
     @IBAction func eight(sender: AnyObject) {
         if (tmp==1){
+            if(y.text=="0")
+            {
+                y.text!+=""
+            }
+            else
+            {
+                y.text!+="8"
+            }
             
-            y.text!+="8"
         }
         else
         {
-            x.text!+="8"
+            if(x.text=="0")
+            {
+                x.text!+=""
+            }
+            else
+            {
+                x.text!+="8"
+            }
+            
         }
     }
     
     @IBAction func nine(sender: AnyObject) {
         if (tmp==1){
+            if(y.text=="0")
+            {
+                y.text!+=""
+            }
+            else
+            {
+                y.text!+="9"
+            }
             
-            y.text!+="9"
         }
         else
         {
-            x.text!+="9"
+            if(x.text=="0")
+            {
+                x.text!+=""
+            }
+            else
+            {
+                x.text!+="9"
+            }
+            
         }
+    }
+    @IBAction func zero(sender: AnyObject) {
+        if (tmp==1){
+            
+            if(y.text=="0")
+            {
+                y.text!+=""
+            }
+            else
+            {
+                y.text!+="0"
+            }
+        }
+        else
+        {
+            if(x.text=="0")
+                {
+                    x.text!+=""
+                }
+            else
+                {
+                    x.text!+="0"
+                }
+            
+        }
+    }
+    
+    @IBAction func dot(sender: AnyObject) {
+        
+        if (tmp==1){
+            
+            if(y.text!=="")
+            {
+                y.text==""
+               
+            }
+            else if(booldoty==false)
+            {
+                //y.text==""
+                 y.text!+="."
+                 booldoty=true
+            }
+            else
+            {
+                y.text!+=""
+            }
+            
+        }
+        else
+        {
+            if(x.text!=="")
+            {
+                x.text==""
+                
+            }
+            else if(booldotx==false)
+            {
+                //x.text==""
+                x.text!+="."
+                booldotx=true
+            }
+            else
+            {
+                x.text!+=""
+            }
+
+        }
+    }
+    
+    @IBAction func clean(sender: AnyObject) {
+       
+        x.text=""
+        y.text=""
+        z.text=""
+        mark.text=""
+        loop=0
+        tmp=0
+        booldoty=false
+        booldotx=false
+
+       
     }
     @IBAction func add(sender: UIButton) {
         var a:Double!=0
