@@ -19,6 +19,8 @@ class ViewController: UIViewController {
     var booldoty=false;
     var booldotx=false;
     var i=0;
+    var ok=false;
+    
     @IBAction func subButton(sender: AnyObject) {
         mark.text="-"
         loop=2
@@ -44,6 +46,21 @@ class ViewController: UIViewController {
     }
     
     @IBAction func one(sender: AnyObject) {
+        if(ok==true)
+        {
+            ok=false
+            x.text=""
+            y.text=""
+            z.text=""
+            mark.text=""
+            loop=0
+            tmp=0
+            booldoty=false
+            booldotx=false
+            x.text="1"
+        }
+        else
+        {
        
        
       if (tmp==1){
@@ -72,7 +89,24 @@ class ViewController: UIViewController {
         }
 
        }
+    }
     @IBAction func two(sender: AnyObject) {
+        if(ok==true)
+        {
+            ok=false
+            x.text=""
+            y.text=""
+            z.text=""
+            mark.text=""
+            loop=0
+            tmp=0
+            booldoty=false
+            booldotx=false
+            x.text="2"
+        }
+        else
+        {
+            
         if (tmp==1){
             if(y.text=="0")
             {
@@ -97,8 +131,25 @@ class ViewController: UIViewController {
             
         }
     }
+    }
     
     @IBAction func three(sender: AnyObject) {
+        if(ok==true)
+        {
+            ok=false
+            x.text=""
+            y.text=""
+            z.text=""
+            mark.text=""
+            loop=0
+            tmp=0
+            booldoty=false
+            booldotx=false
+            x.text="3"
+        }
+        else
+        {
+            
         if (tmp==1){
             if(y.text=="0")
             {
@@ -124,8 +175,24 @@ class ViewController: UIViewController {
         }
 
     }
-    
+    }
     @IBAction func four(sender: AnyObject) {
+        if(ok==true)
+        {
+            ok=false
+            x.text=""
+            y.text=""
+            z.text=""
+            mark.text=""
+            loop=0
+            tmp=0
+            booldoty=false
+            booldotx=false
+            x.text="4"
+        }
+        else
+        {
+            
         if (tmp==1){
             if(y.text=="0")
             {
@@ -150,7 +217,24 @@ class ViewController: UIViewController {
             
         }
     }
+    }
     @IBAction func five(sender: AnyObject) {
+        if(ok==true)
+        {
+            ok=false
+            x.text=""
+            y.text=""
+            z.text=""
+            mark.text=""
+            loop=0
+            tmp=0
+            booldoty=false
+            booldotx=false
+            x.text="5"
+        }
+        else
+        {
+            
         if (tmp==1){
             if(y.text=="0")
             {
@@ -175,8 +259,24 @@ class ViewController: UIViewController {
             
         }
     }
-    
+    }
     @IBAction func six(sender: AnyObject) {
+        if(ok==true)
+        {
+            ok=false
+            x.text=""
+            y.text=""
+            z.text=""
+            mark.text=""
+            loop=0
+            tmp=0
+            booldoty=false
+            booldotx=false
+            x.text="6"
+        }
+        else
+        {
+            
         if (tmp==1){
             if(y.text=="0")
             {
@@ -201,8 +301,24 @@ class ViewController: UIViewController {
             
         }
     }
-    
+    }
     @IBAction func seven(sender: AnyObject) {
+        if(ok==true)
+        {
+            ok=false
+            x.text=""
+            y.text=""
+            z.text=""
+            mark.text=""
+            loop=0
+            tmp=0
+            booldoty=false
+            booldotx=false
+            x.text="7"
+        }
+        else
+        {
+            
         if (tmp==1){
             if(y.text=="0")
             {
@@ -227,8 +343,24 @@ class ViewController: UIViewController {
             
         }
     }
-    
+    }
     @IBAction func eight(sender: AnyObject) {
+        if(ok==true)
+        {
+            ok=false
+            x.text=""
+            y.text=""
+            z.text=""
+            mark.text=""
+            loop=0
+            tmp=0
+            booldoty=false
+            booldotx=false
+            x.text="8"
+        }
+        else
+        {
+            
         if (tmp==1){
             if(y.text=="0")
             {
@@ -253,8 +385,25 @@ class ViewController: UIViewController {
             
         }
     }
+    }
     
     @IBAction func nine(sender: AnyObject) {
+        if(ok==true)
+        {
+            ok=false
+            x.text=""
+            y.text=""
+            z.text=""
+            mark.text=""
+            loop=0
+            tmp=0
+            booldoty=false
+            booldotx=false
+            x.text="9"
+        }
+        else
+        {
+            
         if (tmp==1){
             if(y.text=="0")
             {
@@ -279,7 +428,24 @@ class ViewController: UIViewController {
             
         }
     }
+    }
     @IBAction func zero(sender: AnyObject) {
+        if(ok==true)
+        {
+            ok=false
+            x.text=""
+            y.text=""
+            z.text=""
+            mark.text=""
+            loop=0
+            tmp=0
+            booldoty=false
+            booldotx=false
+            x.text="0"
+        }
+        else
+        {
+            
         if (tmp==1){
             
             if(y.text=="0")
@@ -304,9 +470,25 @@ class ViewController: UIViewController {
             
         }
     }
-    
+    }
     @IBAction func dot(sender: AnyObject) {
         
+        if(ok==true)
+        {
+            ok=false
+            x.text=""
+            y.text=""
+            z.text=""
+            mark.text=""
+            loop=0
+            tmp=0
+            booldoty=false
+            booldotx=false
+            x.text=""
+        }
+        else
+        {
+            
         if (tmp==1){
             
             if(y.text!=="")
@@ -346,7 +528,7 @@ class ViewController: UIViewController {
 
         }
     }
-    
+    }
     @IBAction func clean(sender: AnyObject) {
        
         x.text=""
@@ -403,10 +585,10 @@ class ViewController: UIViewController {
                 }
             
             z.text="\(c)"
-        
+                ok=true
             }
         z.text="\(c)"
-    
+        ok=true
         
     }
     override func viewDidLoad() {

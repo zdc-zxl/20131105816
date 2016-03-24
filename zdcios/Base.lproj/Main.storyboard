@@ -102,6 +102,15 @@
                                     <action selector="six:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GO6-0z-kt8"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="WPw-qq-8zB">
+                                <rect key="frame" x="30" y="208" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" title="7"/>
+                                <connections>
+                                    <action selector="seven:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EzK-jL-yFW"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Wtv-47-87b">
                                 <rect key="frame" x="82" y="208" width="28" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -165,15 +174,6 @@
                                     <action selector="mulButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9CM-XY-WVl"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GjX-Er-1vL">
-                                <rect key="frame" x="80" y="246" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <state key="normal" title="."/>
-                                <connections>
-                                    <action selector="dot:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P7O-TZ-SXA"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="KXM-SD-Mto">
                                 <rect key="frame" x="130" y="246" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -201,13 +201,13 @@
                                     <action selector="leicheng:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eIU-sO-Jiq"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="WPw-qq-8zB">
-                                <rect key="frame" x="30" y="208" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GjX-Er-1vL">
+                                <rect key="frame" x="82" y="244" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
-                                <state key="normal" title="7"/>
+                                <state key="normal" title="."/>
                                 <connections>
-                                    <action selector="seven:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EzK-jL-yFW"/>
+                                    <action selector="dot:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P7O-TZ-SXA"/>
                                 </connections>
                             </button>
                         </subviews>
