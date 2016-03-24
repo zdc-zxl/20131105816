@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     var tmp=0;
     var booldoty=false;
     var booldotx=false;
-    
+    var i=0;
     @IBAction func subButton(sender: AnyObject) {
         mark.text="-"
         loop=2
@@ -360,6 +360,13 @@ class ViewController: UIViewController {
 
        
     }
+    
+    @IBAction func leicheng(sender: AnyObject) {
+        loop=5
+        mark.text="^"
+        tmp=1
+        
+    }
     @IBAction func add(sender: UIButton) {
         var a:Double!=0
         var b:Double!=0
@@ -371,25 +378,34 @@ class ViewController: UIViewController {
             b = (y.text! as NSString).doubleValue
         }
     
-        if( loop==1){
-            c=a+b
-        }
-        else if(loop==2)
-        {
-            c=a-b
-        }
-        else if(loop==3)
-        {
-            c=a*b
-        }
-        else if(loop==4)
-        {
-            c=a/b
-        }
-        z.text="\(c)"
-        
-        
     
+            if( loop==1){
+                c=a+b
+            }
+            else if(loop==2)
+            {
+                c=a-b
+            }
+            else if(loop==3)
+            {
+                c=a*b
+            }
+            else if(loop==4)
+            {
+                c=a/b
+            }
+            else if(loop==5)
+            {
+                c=1
+                for(var k=0; k < (Int)(b)  ;k++)
+                {
+                    c=c*a;
+                }
+            
+            z.text="\(c)"
+        
+            }
+        z.text="\(c)"
     
         
     }

@@ -102,15 +102,6 @@
                                     <action selector="six:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GO6-0z-kt8"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="WPw-qq-8zB">
-                                <rect key="frame" x="30" y="212" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <state key="normal" title="7"/>
-                                <connections>
-                                    <action selector="seven:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EzK-jL-yFW"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Wtv-47-87b">
                                 <rect key="frame" x="82" y="208" width="28" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -127,6 +118,15 @@
                                 <state key="normal" title="9"/>
                                 <connections>
                                     <action selector="nine:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dMG-LB-6EI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="egG-dc-QOq">
+                                <rect key="frame" x="205" y="242" width="60" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" title="计算"/>
+                                <connections>
+                                    <action selector="add:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lsk-dr-wdj"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="FLT-Rx-k5Z">
@@ -192,13 +192,22 @@
                                     <action selector="zero:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m43-PE-ytt"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="egG-dc-QOq">
-                                <rect key="frame" x="205" y="242" width="60" height="34"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kX5-XB-IVD">
+                                <rect key="frame" x="226" y="204" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
-                                <state key="normal" title="计算"/>
+                                <state key="normal" title="x^y"/>
                                 <connections>
-                                    <action selector="add:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lsk-dr-wdj"/>
+                                    <action selector="leicheng:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eIU-sO-Jiq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="WPw-qq-8zB">
+                                <rect key="frame" x="30" y="208" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" title="7"/>
+                                <connections>
+                                    <action selector="seven:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EzK-jL-yFW"/>
                                 </connections>
                             </button>
                         </subviews>
