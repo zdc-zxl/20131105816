@@ -50,7 +50,7 @@ class ViewController: UIViewController {
         
             if(y.text=="0")
             {
-                y.text!+=""
+                y.text="1"
             }
             else
             {
@@ -62,7 +62,7 @@ class ViewController: UIViewController {
         {
             if(x.text=="0")
             {
-                x.text!+=""
+                x.text="1"
             }
             else
             {
@@ -76,7 +76,7 @@ class ViewController: UIViewController {
         if (tmp==1){
             if(y.text=="0")
             {
-                y.text!+=""
+                y.text="2"
             }
             else
             {
@@ -88,7 +88,7 @@ class ViewController: UIViewController {
         {
             if(x.text=="0")
             {
-                x.text!+=""
+                x.text="2"
             }
             else
             {
@@ -102,7 +102,7 @@ class ViewController: UIViewController {
         if (tmp==1){
             if(y.text=="0")
             {
-                y.text!+=""
+                y.text="3"
             }
             else
             {
@@ -114,7 +114,7 @@ class ViewController: UIViewController {
         {
             if(x.text=="0")
             {
-                x.text!+=""
+                x.text="3"
             }
             else
             {
@@ -129,7 +129,7 @@ class ViewController: UIViewController {
         if (tmp==1){
             if(y.text=="0")
             {
-                y.text!+=""
+                y.text="4"
             }
             else
             {
@@ -141,7 +141,7 @@ class ViewController: UIViewController {
         {
             if(x.text=="0")
             {
-                x.text!+=""
+                x.text="4"
             }
             else
             {
@@ -154,7 +154,7 @@ class ViewController: UIViewController {
         if (tmp==1){
             if(y.text=="0")
             {
-                y.text!+=""
+                y.text="5"
             }
             else
             {
@@ -166,7 +166,7 @@ class ViewController: UIViewController {
         {
             if(x.text=="0")
             {
-                x.text!+=""
+                x.text="5"
             }
             else
             {
@@ -180,7 +180,7 @@ class ViewController: UIViewController {
         if (tmp==1){
             if(y.text=="0")
             {
-                y.text!+=""
+                y.text="6"
             }
             else
             {
@@ -192,7 +192,7 @@ class ViewController: UIViewController {
         {
             if(x.text=="0")
             {
-                x.text!+=""
+                x.text="6"
             }
             else
             {
@@ -206,7 +206,7 @@ class ViewController: UIViewController {
         if (tmp==1){
             if(y.text=="0")
             {
-                y.text!+=""
+                y.text="7"
             }
             else
             {
@@ -218,7 +218,7 @@ class ViewController: UIViewController {
         {
             if(x.text=="0")
             {
-                x.text!+=""
+                x.text="7"
             }
             else
             {
@@ -232,7 +232,7 @@ class ViewController: UIViewController {
         if (tmp==1){
             if(y.text=="0")
             {
-                y.text!+=""
+                y.text="8"
             }
             else
             {
@@ -244,7 +244,7 @@ class ViewController: UIViewController {
         {
             if(x.text=="0")
             {
-                x.text!+=""
+                x.text="8"
             }
             else
             {
@@ -258,7 +258,7 @@ class ViewController: UIViewController {
         if (tmp==1){
             if(y.text=="0")
             {
-                y.text!+=""
+                y.text="9"
             }
             else
             {
@@ -270,7 +270,7 @@ class ViewController: UIViewController {
         {
             if(x.text=="0")
             {
-                x.text!+=""
+                x.text="9"
             }
             else
             {
