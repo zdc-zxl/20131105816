@@ -20,16 +20,58 @@ class ViewController: UIViewController {
     var booldotx=false;
     var i=0;
     var ok=false;
-    
+    var temp=0;
+    var fushux=false;
+    var fushuy=false;
     @IBAction func subButton(sender: AnyObject) {
-        mark.text="-"
+        
         loop=2
-        tmp=1;
-    }
+        if(x.text=="")
+        {
+            if(fushux==false)
+            {
+            x.text!+="-"
+            }
+            else
+            {
+                x.text!+=""
+                fushux=true;
+            }
+            
+        }
+        else if(mark.text=="")
+        {
+            mark.text="-"
+            tmp=1;
+        }
+        else if (y.text=="")
+
+        {
+            
+                if(fushuy==false){
+                    y.text!+="-"
+                }
+                else
+                {
+                    y.text!+=""
+                    fushuy=true
+                }
+        }
+        else if(x.text!==""){
+             x.text!+=""
+        }
+        else if(y.text!==""){
+            y.text!+=""
+        }
+        
+       
+                    }
     @IBAction func divButton(sender: AnyObject) {
         mark.text="/"
         loop=4
-         tmp=1;
+        tmp=1;
+      
+
     }
    
  
@@ -43,11 +85,31 @@ class ViewController: UIViewController {
         mark.text="+"
         loop=1
          tmp=1;
+      /*  if(ok==false)
+        {
+            temp=0;
+        }
+        else
+        {
+            temp=1;
+        }*/
     }
     
     @IBAction func one(sender: AnyObject) {
         if(ok==true)
         {
+           /* if(temp==1)
+            {
+                x.text=""
+                y.text=""
+                z.text=""
+                x.text="10"
+                ok=false
+                loop=1
+                tmp=1
+            }
+            else{*/
+            
             ok=false
             x.text=""
             y.text=""
@@ -58,6 +120,8 @@ class ViewController: UIViewController {
             booldoty=false
             booldotx=false
             x.text="1"
+          
+            // }
         }
         else
         {
@@ -87,7 +151,7 @@ class ViewController: UIViewController {
             }
 
         }
-
+    
        }
     }
     @IBAction func two(sender: AnyObject) {
@@ -581,14 +645,21 @@ class ViewController: UIViewController {
                 c=1
                 for(var k=0; k < (Int)(b)  ;k++)
                 {
-                    c=c*a;
+                    if(a>0)
+                    {
+                        c=c*a;
+                    }
+                    
                 }
-            
-            z.text="\(c)"
+                
+                z.text="\(c)"
                 ok=true
             }
+        
+        
         z.text="\(c)"
         ok=true
+        
         
     }
     override func viewDidLoad() {
