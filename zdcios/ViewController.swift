@@ -23,6 +23,7 @@ class ViewController: UIViewController {
     var temp=0;
     var fushux=false;
     var fushuy=false;
+    var fu=true;
     @IBAction func subButton(sender: AnyObject) {
         
         loop=2
@@ -63,7 +64,23 @@ class ViewController: UIViewController {
         else if(y.text!==""){
             y.text!+=""
         }
-        
+        if (x.text=="-")
+        {
+            if(tmp==1)
+            {
+                x.text="0"
+            }
+        }
+        else if(y.text=="-")
+        {
+            
+            if(fu==true)
+            {
+                y.text="-"
+            }
+           
+           
+        }
        
                     }
     @IBAction func divButton(sender: AnyObject) {
@@ -631,6 +648,7 @@ class ViewController: UIViewController {
             else if(loop==2)
             {
                 c=a-b
+                fu=true;
             }
             else if(loop==3)
             {
@@ -638,7 +656,16 @@ class ViewController: UIViewController {
             }
             else if(loop==4)
             {
-                c=a/b
+                if(y.text=="0")
+                {
+                    c=0;
+                }
+                else
+                {
+                    c=a/b;
+                }
+                
+                
             }
             else if(loop==5)
             {
@@ -655,9 +682,8 @@ class ViewController: UIViewController {
                 z.text="\(c)"
                 ok=true
             }
-        
-        
-        z.text="\(c)"
+            z.text="\(c)"
+      
         ok=true
         
         
