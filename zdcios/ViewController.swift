@@ -14,22 +14,22 @@ class ViewController: UIViewController {
     @IBOutlet weak var z: UITextField!
     
     @IBOutlet weak var mark: UITextField!
-    var loop=0;
-    var tmp=0;
-    var booldoty=false;
-    var booldotx=false;
-    var i=0;
-    var ok=false;
-    var temp=0;
-    var fushux=false;
-    var fushuy=false;
-    var fu=true;
+    var loop=0;//判断＋－＊／x^y
+    var tmp=0;//判断第一个text还是第二个text
+    var booldoty=false;//判断第一个text小数点
+    var booldotx=false;//判断第二个text小数点
+    var i=0;//
+    var ok=false;//全部清空变量
+    //var temp=0;//
+    var fushux=false;//判断第一个text是否为负数
+    var fushuy=false;//判断第二个text是否为负数
+    var fu=true;//判断是否出现负负（－－1）的情况
     @IBAction func subButton(sender: AnyObject) {
         
         loop=2
         if(x.text=="")
         {
-            if(fushux==false)
+            if(fushux==false)//判断负数
             {
             x.text!+="-"
             }
@@ -138,7 +138,7 @@ class ViewController: UIViewController {
             booldotx=false
             x.text="1"
           
-            // }
+            // 全部初始化
         }
         else
         {
@@ -620,7 +620,7 @@ class ViewController: UIViewController {
         tmp=0
         booldoty=false
         booldotx=false
-
+//ac键清楚所有
        
     }
     
@@ -667,7 +667,7 @@ class ViewController: UIViewController {
                 
                 
             }
-            else if(loop==5)
+            else if(loop==5)//x^y x的y次方
             {
                 c=1
                 for(var k=0; k < (Int)(b)  ;k++)
